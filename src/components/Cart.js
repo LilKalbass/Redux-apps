@@ -10,8 +10,8 @@ const Cart = () => {
       dispatch(cartActions.setShowCart())
   }
   return (
-    <div className="border border-black rounded-full p-2.5 cursor-pointer">
-      <h3 onClick = {showCart}>Cart: {quantity} Items</h3>
+    <div className="border border-black rounded-full px-3 py-2.5 cursor-pointer q:">
+      <h3 onClick = {showCart}>Cart:{quantity}</h3>
     </div>
   );
 };
