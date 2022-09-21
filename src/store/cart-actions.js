@@ -35,7 +35,7 @@ export const sendCartData = (cart) => {
             body: JSON.stringify(cart)
         })
             .then((res) => {
-                 console.log(res);
+                 // console.log(res);
                 return res.json()
 
             })

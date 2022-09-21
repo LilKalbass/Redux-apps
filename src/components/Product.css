@@ -17,8 +17,8 @@ button {
   background-color: rgba(21, 26, 42, 0.787);
 }
 .card {
-  width: 250px;
-  height: 250px;
+  min-width: 250px;
+  min-height: 250px;
   display: flex;
   padding: 10px;
   flex-direction: column;
@@ -27,8 +27,8 @@ button {
   box-shadow: 5px 5px 10px #ccc;
 }
 .card img {
-  width: 90%;
-  height: 40%;
+  max-width: 200px;
+  max-height: 150px;
 }
 .card > p {
   padding: 10px;
